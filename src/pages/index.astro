@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+<Layout>
+  <div class="relative min-h-screen bg-white text-gray-900">
+    <!-- Notification Bar -->
+    <div class="bg-blue-600 text-white p-2 text-center text-sm font-semibold">
+    </div>
+    
+    <!-- App Bar (Navbar) -->
+    <header class="fixed top-0 left-0 right-0 bg-black p-4 shadow-md z-50 text-white">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Left side placeholder (for alignment) -->
+        <div class="flex-grow"></div>
+        
+        <!-- Logo in the center -->
+        <a href="/" class="mx-auto">
+          <img src="https://static.wikia.nocookie.net/logopedia/images/a/a1/Blox_Fruits.png/revision/latest/scale-to-width-down/1000?cb=20220326205603" 
+               alt="Blox Fruits Logo" class="h-16 w-auto mx-auto" />
+        </a>
+        
+        <!-- Right side (OTHERS button) -->
+        <a href="/others-page" class="text-lg font-semibold bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded">
+          OTHERS
+        </a>
+      </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="pt-16 px-4">
+      <div class="container mx-auto">
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card Component -->
+          <Card title="FIGHT4FRUIT" reward="20 minutes of 2x Experience" />
+          <Card title="NOEXPLOITER" reward="20 minutes of 2x Experience" />
+          <Card title="fudd10" reward="MoneyIcon 1" />
+          <Card title="fudd10_V2" reward="2 DOLLAR" />
+          <Card title="Chandler" reward="MoneyIcon 0" />
+          <Card title="BigNews" reward="An in-game title 'BIGNEWS' (Title can only be applied in the Second Sea or the Third Sea, but you can enter the code while in First Sea)" />
+          <Card title="KITT_RESET" reward="Free Stat Reset" />
+          <Card title="Sub2UncleKizaru" reward="Free Stat Reset" />
+          <Card title="SUB2GAMERROBOT_RESET1" reward="Free Stat Reset" />
+          <Card title="Sub2Fer999" reward="21 minutes of 2x Experience" />
+          <Card title="Enyu_is_Pro" reward="20 minutes of 2x Experience" />
+          <Card title="JCWK" reward="20 minutes of 2x Experience" />
+          <Card title="StarcodeHEO" reward="20 minutes of 2x Experience" />
+          <Card title="MagicBUS" reward="20 minutes of 2x Experience" />
+          <Card title="KittGaming" reward="20 minutes of 2x Experience" />
+          <Card title="Sub2CaptainMaui" reward="20 minutes of 2x Experience" />
+          <Card title="Sub2OfficialNoobie" reward="20 minutes of 2x Experience" />
+          <Card title="TheGreatAce" reward="20 minutes of 2x Experience" />
+          <Card title="Sub2NoobMaster123" reward="20 minutes of 2x Experience" />
+          <Card title="Sub2Daigrock" reward="20 minutes of 2x Experience" />
+          <Card title="Axiore" reward="20 minutes of 2x Experience" />
+          <Card title="StrawHatMaine" reward="20 minutes of 2x Experience" />
+          <Card title="TantaiGaming" reward="20 Minutes of 2x Experience" />
+          <Card title="Bluxxy" reward="20 minutes of 2x Experience" />
+          <Card title="SUB2GAMERROBOT_EXP1" reward="31 minutes of 2x Experience" />
+        </div>
+      </div>
+    </main>
+  </div>
+</Layout>
